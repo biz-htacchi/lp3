@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/* ページ全体のスタイル
+--------------------------------------------------- */
+/* デフォルトのサイズを10pxに指定 */
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth; /* スムーズスクロール */
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400;
+    /* デフォルトを10pxにしているのでここで16pxに指定し直し */
+    font-size: 1.6rem;
+    color: #000000;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* 部品
+--------------------------------------------------- */
+
+/* ヘッダー
+--------------------------------------------------- */
+
+/* フッター
+--------------------------------------------------- */
