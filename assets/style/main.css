@@ -11,9 +11,9 @@ html {
 body {
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: 400;
-    /* デフォルトを10pxにしているのでここで16pxに指定し直し */
-    font-size: 1.6rem;
-    color: #000000;
+    font-size: 1.4rem;
+    line-height: 1.2;
+    color: #333333;
 }
 
 * {
@@ -28,6 +28,7 @@ img {
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 li {
@@ -39,6 +40,106 @@ li {
 
 /* ヘッダー
 --------------------------------------------------- */
+.header {
+    padding: 1.05rem 0;
+}
+@media (min-width: 768px) {
+    .header {
+        padding: 1.8rem 1.2rem;
+    }
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 .9rem 0 1.2rem;
+}
+@media (min-width: 768px) {
+    .header__container {
+        width: 100%;
+        max-width: 102.4rem;
+        margin: 0 auto;
+    }
+}
+
+.header__logo {
+    width: 7.2rem
+}
+@media (min-width: 768px) {
+    .header__logo {
+        width: 9.7rem;
+    }
+}
+
+.header__btn-container {
+    display: flex;
+    justify-content: space-between;
+    width: 29.1rem;
+    padding-top: .35rem;
+}
+@media (min-width: 768px) {
+    .header__btn-container {
+        width: 50.5rem;
+        padding-top: .3rem;
+    }
+}
+
+.header__btn-contact,
+.header__btn-reservation {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #ffffff;
+    width: 10.7rem;
+    height: 3.1rem;
+    border-radius: 1.55rem;
+    background: #fa7da3;
+    padding-top: .8rem;
+    padding-left: 1.1rem;
+    letter-spacing: .6px;
+}
+@media (min-width: 768px) {
+    .header__btn-contact,
+    .header__btn-reservation {
+        font-size: 2.15rem;
+        width: 18.9rem;
+        height: 5.05rem;
+        border-radius: 2.52rem;
+        padding-top: 1.1rem;
+        padding-left: 2.5rem;
+        letter-spacing: -.6px;
+    }
+}
+
+.header__btn-reservation {
+    width: 17.4rem;
+    background: #49c43d;
+}
+@media (min-width: 768px) {
+    .header__btn-reservation {
+        width: 29.5rem;
+        padding-top: 1rem;
+        padding-left: 2.3rem;
+    }
+}
+
+.header__btn-reservation-free {
+    font-size: 1rem;
+    letter-spacing: .4px;
+}
+@media (min-width: 768px) {
+    .header__btn-reservation-free {
+        font-size: 1.8rem;
+    }
+
+    .header__chevron-right {
+        font-size: 2rem;
+    }
+
+    .header__btn-contact .header__chevron-right{
+        padding-left: .6rem;
+    }
+}
+
 
 /* フッター
 --------------------------------------------------- */
