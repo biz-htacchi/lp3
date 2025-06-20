@@ -525,8 +525,7 @@ li {
 /* 予約
 --------------------------------------------------- */
 .reservation {
-    background: #f9f9f9;
-    padding: 1.65rem 0 1.6rem;
+    padding: 1.65rem 0 0;
 }
 @media (min-width: 768px) {
     .reservation {
@@ -594,10 +593,6 @@ li {
     right: 3.1rem;
 }
 
-.reservation__btn:hover {
-    background-color: #40e02f;
-}
-
 @media (min-width: 768px) {
     .reservation__btn {
         font-size: 3.4rem;
@@ -612,6 +607,99 @@ li {
         bottom: 4.2rem;
         right: 4.9rem;
     }
+
+    .reservation__btn:hover {
+        background-color: #40e02f;
+    }
+}
+
+/* 無料体験
+--------------------------------------------------- */
+.free-trial{
+    padding: 3rem 0 3.9rem;
+}
+@media (min-width: 768px) {
+    .free-trial {
+        padding: 2.1rem 0 5.9rem;
+    }
+}
+
+.free-trial__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.free-trial__title {
+    display: flex;
+    justify-content: center;
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: #50bfff;
+    margin-bottom: 1.15rem;
+    letter-spacing: .2rem;
+    border-top: #50bfff solid .1rem;
+    border-bottom: #50bfff solid .1rem;
+    width: 100%;
+    max-width: 57rem;
+    padding: .93rem 0;
+}
+@media (min-width: 768px) {
+    .free-trial__title {
+        font-size: 2.8rem;
+        padding: 1.3rem 0 1.55rem;
+        margin-left: .3rem;
+        margin-bottom: 1.8rem;
+        letter-spacing: .3rem;
+        border-top-width: .3rem;
+        border-bottom-width: .3rem;
+    }
+}
+
+.free-trial__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: .7rem;
+    padding-top: .2rem;
+    margin-left: -.3rem;
+    color: #333333;
+    letter-spacing: -.01rem;
+}
+.free-trial__trial {
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+.free-trial__small-text {
+    font-size: 1.1rem;
+}
+@media (min-width: 768px) {
+    .free-trial__content {
+        gap: 1.2rem;
+        margin-left: -1.6rem;
+    }
+    .free-trial__trial {
+        font-size: 2.3rem;
+    }
+    .free-trial__small-text {
+        font-size: 1.8rem;
+    }
+    .free-trial__trial:last-child{
+        letter-spacing: -.03rem;
+    }
+}
+
+/* ポイント
+--------------------------------------------------- */
+.points{
+    background-color: #fdf0f5;
+    height: 100rem;
+    width: 100%;
+    padding: 2.4rem 0 1.6rem;
 }
 
 /* フッター
