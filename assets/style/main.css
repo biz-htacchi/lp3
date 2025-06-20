@@ -457,11 +457,11 @@ li {
     border-radius: 1rem;
     margin: .75rem 0 0 .2rem;
     overflow: hidden;
+    max-width: 55rem;
 }
 @media (min-width: 768px) {
     .present__inner-container {
         width: 100%;
-        max-width: 55rem;
         margin-left: .4rem;
     }
 }
@@ -521,5 +521,94 @@ li {
         margin-top: 1.8rem;
     }
 }
+
+/* 予約
+--------------------------------------------------- */
+.reservation {
+    background: #f9f9f9;
+    padding: 1.65rem 0 1.6rem;
+}
+@media (min-width: 768px) {
+    .reservation {
+        padding: 5.8rem 0 2.5rem;
+    }
+}
+
+.reservation__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.reservation__title {
+    position: relative;
+    font-size: 2.1rem;
+    font-weight: 600;
+    color: #fa7da3;
+    margin-bottom: 1.15rem;
+    letter-spacing: .2rem;
+    margin-right: 1.2rem;
+}
+.reservation__title::after {
+    position: absolute;
+    left: 16.8rem;
+    bottom: 0;
+    content: "!";
+}
+@media (min-width: 768px) {
+    .reservation__title {
+        font-size: 3.4rem;
+        margin-right: 2.2rem;
+        margin-bottom: 1.86rem;
+        letter-spacing: .34rem;
+    }
+    .reservation__title::after {
+        left: 27.4rem;
+        bottom: 0;
+    }
+}
+.reservation__btn {
+    position:relative;
+    font-size: 2.1rem;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #49c43d;
+    width: 100%;
+    padding: 1.2rem 7.1rem;
+    border-radius: 4rem;
+    text-align: center;
+    height: 8rem;
+    letter-spacing: .2rem;
+    line-height: 1.3;
+    max-width: 55rem;
+}
+
+.reservation__btn::after {
+    position: absolute;
+    content: "\f054";
+    font-family: "Font Awesome 6 Free";
+    bottom: 2.7rem;
+    right: 3.1rem;
+}
+
+@media (min-width: 768px) {
+    .reservation__btn {
+        font-size: 3.4rem;
+        padding: 2rem 9.5rem;
+        height: 13rem;
+        border-radius: 6.5rem;
+        letter-spacing: .34rem;
+        max-width: 57rem;
+        margin-left: .3rem;
+    }
+    .reservation__btn::after {
+        bottom: 4.2rem;
+        right: 4.9rem;
+    }
+}
+
 /* フッター
 --------------------------------------------------- */
