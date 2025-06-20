@@ -594,6 +594,10 @@ li {
     right: 3.1rem;
 }
 
+.reservation__btn:hover {
+    background-color: #40e02f;
+}
+
 @media (min-width: 768px) {
     .reservation__btn {
         font-size: 3.4rem;
