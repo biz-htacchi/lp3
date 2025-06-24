@@ -1459,7 +1459,8 @@ li {
     border-radius: 1rem;
     overflow: hidden;
     width: 31rem;
-    height: 18.8rem;
+    min-height: 18.8rem;
+    background-color: #FFFFFF;
 }
 
 .customer-voice__slide--dummy{
