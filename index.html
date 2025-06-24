@@ -23,6 +23,9 @@
         <script src="https://kit.fontawesome.com/3ea11fe6fa.js" crossorigin="anonymous"></script>
         <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
 
+        <!-- Swiper CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
         <!-- リセットCSS -->
         <link rel="stylesheet" href="https://unpkg.com/ress@4.0.0/dist/ress.min.css">
         <link href="/assets/style/main.css" rel="stylesheet">
@@ -128,18 +131,233 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="point__point-two">
+                        <h3 class="point__item-title">POINT2 ｜ プランが選べる</h3>
+                        <div class="point__item-content">
+                            <p class="point__item-text">「全身プラン」と、施術部位を選べる「部分脱毛プラン」から自由にお選びいただけます。</p>
+                            <div class="point__item-middle">
+                                <p class="point__item-middle-text">全身プラン</p>
+                                <div class="point__item-middle-body-container">
+                                    <div class="point__item-middle-body-list1">
+                                        <p class="point__item-middle-body-forehead">おでこ</p>
+                                        <p class="point__item-middle-body-cheeks">頬</p>
+                                        <p class="point__item-middle-body-face-line">フェイスライン</p>
+                                        <p class="point__item-middle-body-under-nose">鼻下</p>
+                                        <p class="point__item-middle-body-chin">あご</p>
+                                        <p class="point__item-middle-body-armpits">ワキ</p>
+                                        <p class="point__item-middle-body-belly-button">へそ周り</p>
+                                        <p class="point__item-middle-body-hands">手指甲</p>
+                                        <p class="point__item-middle-body-v-line">Vライン</p>
+                                        <p class="point__item-middle-body-i-line">Iライン</p>
+                                        <p class="point__item-middle-body-knees">ヒザ</p>
+                                        <p class="point__item-middle-body-feet">足指甲</p>
+                                    </div>
+                                    <div class="point__item-middle-body-list2">
+                                        <p class="point__item-middle-body-nape">うなじ</p>
+                                        <p class="point__item-middle-body-back">背中</p>
+                                        <p class="point__item-middle-body-hips">ヒップ</p>
+                                        <p class="point__item-middle-body-o-line">Oライン</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="point__item-bottom2">
+                                <p class="point__item-bottom2-text">部分脱毛プラン</p>
+                                <div class="point__item-bottom-content">
+                                    <div class="point__item-bottom-content-top">
+                                        <ul class="point__item-bottom-content-list">
+                                            <li class="point__item-bottom-content-list-item">
+                                                <img class="point__item-bottom-content-image" src="/assets/image/nape.png" alt="">
+                                                <p class="point__item-bottom-content-text">うなじ</p>
+                                            </li>
+                                        </ul>
+                                        <ul class="point__item-bottom-content-list">
+                                            <li class="point__item-bottom-content-list-item">
+                                                <img class="point__item-bottom-content-image" src="/assets/image/armpits.png" alt="">
+                                                <p class="point__item-bottom-content-text">ワキ</p>
+                                            </li>
+                                        </ul>
+                                        <ul class="point__item-bottom-content-list">
+                                            <li class="point__item-bottom-content-list-item">
+                                                <img class="point__item-bottom-content-image" src="/assets/image/o-line.png" alt="">
+                                                <p class="point__item-bottom-content-text">Oライン</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="point__item-bottom-content-bottom">
+                                        <ul class="point__item-bottom-content-list">
+                                            <li class="point__item-bottom-content-list-item">
+                                                <img class="point__item-bottom-content-image" src="/assets/image/forehead.png" alt="">
+                                                <p class="point__item-bottom-content-text">おでこ</p>
+                                            </li>
+                                        </ul>
+                                        <ul class="point__item-bottom-content-list">
+                                            <li class="point__item-bottom-content-list-item">
+                                                <img class="point__item-bottom-content-image" src="/assets/image/chin.png" alt="">
+                                                <p class="point__item-bottom-content-text">あご</p>
+                                            </li>
+                                        </ul>
+                                        <ul class="point__item-bottom-content-list">
+                                            <li class="point__item-bottom-content-list-item">
+                                                <img class="point__item-bottom-content-image" src="/assets/image/face-line.png" alt="">
+                                                <p class="point__item-bottom-content-text">フェイスライン</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="point__point-three">
+                        <h3 class="point__item-title">POINT3 ｜ 安心のサポート</h3>
+                        <div class="point__item-content">
+                            <p class="point__item-text">提携医療機関のサポートがありますので、ご安心ください。</p>
+                        </div>
+                    </div>
                 </div>
-
-
             </section>
+
+            <section class="reservation">
+                <div class="reservation__container">
+                    <h2 class="reservation__title">無料体験実施中</h2>
+                    <a href="/reservation" class="reservation__btn">カウンセリング予約<br>はこちら（無料）</a>
+                </div>
+            </section>
+
+            <section class="course">
+                <div class="course__container">
+                    <h2 class="course__title">
+                        <div class="course__sub-title">ほかにも選べる！</div>
+                        <div class="course__main-title">2つのコース</div>
+                    </h2>
+                    <div class="course__item">
+                        <div class="course__item-top">
+                            <h3 class="course__item-title">ボディコース</h3>
+                            <p class="course__item-text">ボディケアのスペシャリストが、お客様のお肌を優しく施術いたします。</p>
+                            <div class="course__item-image">
+                                <img src="/assets/image/body_course.png" alt="">
+                            </div>
+                        </div>
+                        <div class="course__item-bottom">
+                            <h3 class="course__item-title">フェイシャルコース</h3>
+                            <p class="course__item-text">確かな技術を持つエステティシャンが<br class="course__br_pc">、お客様の理想のお肌に近づけます。</p>
+                            <div class="course__item-image">
+                                <img src="/assets/image/facial_course.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="customer-voice">
+                <h2 class="customer-voice__title">
+                    <div class="customer-voice__main-title">お客様の声</div>
+                </h2>
+                <div class="customer-voice__carousel-wrapper">
+                    <div class="swiper customer-voice__carousel">
+                        <div class="swiper-wrapper customer-voice__slides">
+                            <div class="swiper-slide customer-voice__slide customer-voice__slide--dummy">
+                                <h3 class="customer-voice__item-title">ダミー</h3>
+                                <div class="customer-voice__content">
+                                    <img class="customer-voice__image" src="/assets/image/voice_YK_20.png" alt="">
+                                    <div class="customer-voice__text-container">
+                                        <p class="customer-voice__data">20代&nbsp;Y.Kさま/会社員</p>
+                                        <p class="customer-voice__text">
+                                            ここにコピーが入ります。<br>
+                                            ここにコピーが入ります。<br>
+                                            ここにコピーが入ります。<br>
+                                            ここにコピーが入ります。
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide customer-voice__slide">
+                                <h3 class="customer-voice__item-title">フェイシャルコース</h3>
+                                <div class="customer-voice__content">
+                                    <img class="customer-voice__image" src="/assets/image/voice_RB_20.png" alt="">
+                                    <div class="customer-voice__text-container">
+                                        <p class="customer-voice__data">20代&nbsp;R.Bさま/大学生</p>
+                                        <p class="customer-voice__text">
+                                            ここにコピーが入ります。<br>
+                                            ここにコピーが入ります。<br>
+                                            ここにコピーが入ります。<br>
+                                            ここにコピーが入ります。
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide customer-voice__slide">
+                                <h3 class="customer-voice__item-title">脱毛コース</h3>
+                                <div class="customer-voice__content">
+                                    <img class="customer-voice__image" src="/assets/image/voice_NT_30.png" alt="">
+                                    <div class="customer-voice__text-container">
+                                        <p class="customer-voice__data">30代&nbsp;N.Tさま/会社員</p>
+                                        <p class="customer-voice__text">
+                                            納得いくまで何度も、追加料金なく安心して通うことができて大変満足しています。
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide customer-voice__slide">
+                                <h3 class="customer-voice__item-title">ボディコース</h3>
+                                <div class="customer-voice__content">
+                                    <img class="customer-voice__image" src="/assets/image/voice_YK_20.png" alt="">
+                                    <div class="customer-voice__text-container">
+                                        <p class="customer-voice__data">20代&nbsp;Y.Kさま/会社員</p>
+                                        <p class="customer-voice__text">
+                                            ここにコピーが入ります。<br>
+                                            ここにコピーが入ります。<br>
+                                            ここにコピーが入ります。<br>
+                                            ここにコピーが入ります。
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide customer-voice__slide customer-voice__slide--dummy">
+                                <h3 class="customer-voice__item-title">ダミー</h3>
+                                <div class="customer-voice__content">
+                                    <img class="customer-voice__image" src="/assets/image/voice_YK_20.png" alt="">
+                                    <div class="customer-voice__text-container">
+                                        <p class="customer-voice__data">20代&nbsp;Y.Kさま/会社員</p>
+                                        <p class="customer-voice__text">
+                                            ここにコピーが入ります。<br>
+                                            ここにコピーが入ります。<br>
+                                            ここにコピーが入ります。<br>
+                                            ここにコピーが入ります。
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-pagination customer-voice__carousel-pagination"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="reservation reservation--bottom">
+                <div class="reservation__container">
+                    <h2 class="reservation__title">無料体験実施中</h2>
+                    <a href="/reservation" class="reservation__btn">カウンセリング予約<br>はこちら（無料）</a>
+                </div>
+            </section>
+
+
         </main>
 
         <footer class="footer">
-
+            <picture class="footer__logo">
+                <source media="(min-width: 768px)" srcset="/assets/image/footer_logo_pc.png">
+                <img src="/assets/image/footer_logo.png" alt="">
+            </picture>
         </footer>
 
         <!-- jQuery -->
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <!-- swiper -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
         <!-- JSファイル -->
         <script src="/assets/script/main.js"></script>
     </body>
