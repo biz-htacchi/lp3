@@ -41,7 +41,13 @@ li {
 /* ヘッダー
 --------------------------------------------------- */
 .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     padding: 1.05rem 0 .95rem;
+    background-color:#ffffff;
+    z-index: 100;
 }
 @media (min-width: 768px) {
     .header {
@@ -148,11 +154,13 @@ li {
     background: #fa7da3;
     height: 31.4rem;
     overflow: hidden;
+    margin-top: 6rem;
 }
 @media (min-width: 768px) {
     .main-visual{
         padding: 0 0 5.45rem 3.4rem;
         height: auto;
+        margin-top: 9.2rem;
     }
 
 }
