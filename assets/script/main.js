@@ -24,15 +24,16 @@ var swiper = new Swiper('.swiper', {
   pagination: {
     el: '.swiper-pagination',
     clickable: true,
-  },
 
-  // ★ここが重要★ renderBullet 関数を使用します
-  renderBullet: function (index, className) {
-    // 例: 最初のドット（indexが0）と最後のドットを非表示にする
-    if (index === 0 || index === (this.slides.length - 1)) { // this.slides.length はループモードの場合、複製されたスライドも含むので注意
-      return '<span class="' + className + ' my-hidden-bullet"></span>';
-    }
-    return '<span class="' + className + '"></span>';
+    renderBullet: function (index, className) {
+      const realSlidesCount = this.el.querySelectorAll('.swiper-slide:not(.swiper-slide-duplicate)').length;
+
+      // 最初のドット（indexが0）と最後のドットを非表示にする
+      if (index === 0 || index === (realSlidesCount - 1)) {
+        return '<span class="' + className + ' my-hidden-bullet"></span>';
+      }
+      return '<span class="' + className + '"></span>';
+    },
   },
 
 });

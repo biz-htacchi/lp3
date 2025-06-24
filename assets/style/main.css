@@ -1551,8 +1551,7 @@ li {
 }
 
 .my-hidden-bullet {
-  display: none !important; /* Swiperのデフォルトスタイルを上書きするため !important が必要になる場合があります */
-  visibility: hidden; /* またはこちら */
+    visibility: hidden;
 }
 
 /* フッター
