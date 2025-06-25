@@ -167,7 +167,7 @@ li {
 
 .main-visual__container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin: 0 auto;
     padding-left: 1.2rem;
 }
@@ -185,11 +185,13 @@ li {
     align-items: center;
     padding-top: 1.5rem;
     max-width: 48%;
+    margin-right: .9rem;
 }
 .main-visual__title-content{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-right: .2rem;
 }
 .main-visual__title {
     font-size: 4.2rem;
@@ -213,6 +215,7 @@ li {
         align-items: flex-end;
         padding-top: 0rem;
         max-width: 51%;
+        margin-right: 3.5rem;
     }
     .main-visual__title-content{
         align-items: flex-end;
@@ -222,6 +225,11 @@ li {
     }
     .main-visual__title {
         font-size: 12.2rem;
+        filter:
+            drop-shadow(0 0 10px rgba(250, 125, 163, 0.8))
+            drop-shadow(0 0 15px rgba(250, 125, 163, 0.6))
+            drop-shadow(0 0 20px rgba(250, 125, 163, 0.5))
+            drop-shadow(0 0 30px rgba(250, 125, 163, 0.4));
     }
     .main-visual__subtitle {
         font-size: 3.6rem;
@@ -252,7 +260,7 @@ li {
     display: flex;
     flex-direction: row;
     background-color: rgba(255, 255, 255, 0.3);
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+    box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.07);
     padding-right: 2.15rem;
     padding-bottom: 1.35rem;
 }
@@ -587,7 +595,7 @@ li {
     padding: 1.2rem 7.1rem;
     border-radius: 4rem;
     text-align: center;
-    height: 8rem;
+    min-height: 8rem;
     letter-spacing: .2rem;
     line-height: 1.3;
     max-width: 55rem;
